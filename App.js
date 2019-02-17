@@ -4,6 +4,7 @@ import MapScreen from './components/MapScreen';
 import CameraScreen from './components/CameraScreen';
 
 import { createStackNavigator, createAppContainer } from "react-navigation";
+import Home from './components/Home';
 
 
 class DetailsScreen extends React.Component {
@@ -19,7 +20,8 @@ class DetailsScreen extends React.Component {
 
 
 const AppNavigator = createStackNavigator({
-  Home: MapScreen,
+  Home: Home,
+  Map: MapScreen,
   Camera: CameraScreen,
 },
 {

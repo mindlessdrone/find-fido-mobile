@@ -21,7 +21,8 @@ export default class MapScreen extends React.Component {
             right: '10px',
           }} 
           rounded 
-          title="Button" 
+          color='#9cc5a1'
+          title="Camera" 
           onPress={() => this.props.navigation.navigate('Camera') }/>
       </View>
     );
